@@ -1,0 +1,638 @@
+/*-------------- RESET STYLE ------------------ */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, tr, th, td {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  /*background: transparent;*/
+  direction: rtl;
+  text-transform: capitalize;
+  /*font-family: "Tahoma";*/
+  box-sizing: border-box;
+}
+.container{
+  width: 1280px;
+  margin: auto;
+}
+body{
+  background-color: white;
+}
+header{
+  position: fixed;
+  width: 100%;
+  z-index: 3;
+}
+/*@media only screen and (max-width: 1280px){*/
+  /*header div.haraj img{right:0};*/
+  /*header div.haraj img:width:100%;*/
+/*}*/
+
+@media only screen and (max-width: 766px) {
+  header div.global div.container div.right ul.nav.navbar-nav li{
+    float: left;
+
+  }
+}
+@media only screen and (max-width: 1200px){
+  header div.haraj{width: 0}
+  header div.menu2 ul li{
+    margin-left: 0;
+    margin-right: 0;
+  }
+}
+/***********************************slick*******************************/
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+* {
+  /*box-sizing: border-box;*/
+}
+
+.slider {
+  width: 50%;
+  margin: 100px auto;
+}
+
+.slick-slide {
+  margin: 0 20px;
+}
+
+.slick-slide img {
+  width: 100%;
+}
+
+.slick-prev:before,
+.slick-next:before {
+  color: black;
+}
+
+
+.slick-slide {
+  transition: all ease-in-out .3s;
+  opacity: .2;
+}
+
+.slick-active {
+  opacity: .5;
+}
+
+.slick-current {
+  opacity: 1;
+}
+section {
+  width: 800px;
+}
+/*******************part 01 *******************/
+/*****************start section 1**************/
+header div.haraj{
+  width: 100%;
+  height: 37px;
+  background-color: black;
+}
+header div.haraj img{
+  position: relative;
+  right: 6%;
+}
+/*!****************end sectin 1*******************/
+
+/*****************start section 2**************/
+header div.global{
+  border-bottom: #f6f6f6 1px solid;
+  height: 34px;
+  background-color: white;
+}
+header div.global div.container div.right{}
+header div.global div.container div.right ul.nav.navbar-nav{}
+header div.global div.container div.right ul.nav.navbar-nav li{
+  padding-left: 10px;
+  padding-right: 10px;
+  border-left: 1px solid #f6f6f6;
+  color: #808080;
+}
+header div.global div.container div.right ul.nav.navbar-nav li.btn{
+  border-radius: 0;
+}
+header div.global div.container div.right ul.nav.navbar-nav li.btn:hover{
+  background-color: #8e44ad;
+  color: white;
+}
+header div.right ul{
+  float: right;
+  direction: rtl;
+}
+header div.global div.container div.right ul.nav.navbar-nav li.text-right{
+  padding-top: 8px;
+  padding-right: 23px;
+  padding-left: 23px;
+  padding-bottom: 5px;
+}
+header div.global div.container div.right ul.nav.navbar-nav li.text-right input{
+  border: none;
+  position: relative;
+  margin-right: 5px;
+  top: -4px;
+  width: 400px;
+}
+header div.global div.container div.right ul.nav.navbar-nav li.text-right input:focus{
+  outline: none;
+}
+header div.global div.container div.right ul.nav.navbar-nav li.text-right i{
+  color:#8e44ad ;
+}
+header div.global div.container div.right ul.nav.navbar-nav li.text-right i a{
+  text-decoration: none;
+  color: #808080;
+}
+/*!****************end sectin 2*******************/
+/*!****************start sectin 3*******************/
+header div.menu2{
+  background-color: white;
+  position: relative;
+  top: -1px;
+}
+header div.menu2 ul{}
+header div.menu2 ul li{
+  /* display: inline; */
+  margin-top: 1px;
+  margin-bottom: 1px;
+  margin-right: 5px;
+}
+header div.menu2 ul li.btn:hover{
+  background-color: #8e44ad;
+  color: white;
+}
+header div.menu2 ul li a{
+  padding-top: 2px;
+}
+header div.menu2 ul li a span{
+color: #9a9a9a;
+}
+header div.menu2 ul li a span.purple{
+  color: #8e44ad;
+  /*font-size: 15px;*/
+  font-weight: 900;
+}
+header div.menu2 ul li a span.purple:hover{
+  color: white;
+}
+header div.menu2 ul li a span:hover{
+  /*color: white;*/
+}
+header div.menu2 ul li a:hover{
+  text-decoration: none;
+}
+header div.menu2 ul a img{
+  position: relative;
+  left: -162px;
+
+}
+.DivChev{
+  top: 7px;
+  border-bottom: 6px solid #fff;
+  border-left: 6px solid rgba(0,0,0,0);
+  border-right: 6px solid rgba(0,0,0,0);
+  /*bottom: -3px;*/
+  clear: both;
+  height: 0;
+  margin: auto;
+  position: relative;
+  right: 0;
+  width: 0;
+}
+/*!****************end section 3*******************/
+/*************************start section 4 menu jquery************************/
+/***********************************زنانه********************************/
+
+
+div.container div.row div.column div.arrow_box1{
+  position: fixed;
+  background: #fdf9ff;
+  border-top: 4px solid #8e44ad;
+  top: 110px;
+  right: 83px;
+  height: 472px;
+  margin: auto;
+  width: 1200px;
+  z-index: 3;
+  display: none;
+  border-radius: 5px;
+
+
+}
+div.container div.row div.column div.arrow_box1 ul{
+  float: right;
+  list-style-type: none;
+  margin: 15px 10px 5px 43px;
+}
+div.container div.row div.column div.arrow_box1 ul li {
+  border-bottom: 1px solid #d5d5d5;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+div.container div.row div.column div.arrow_box1 ul li:hover{
+  background-color:#fff ;
+}
+
+
+div.container div.row div.column div.arrow_box1 ul li a{
+  padding-right: 10px;
+  padding-left: 10px;
+  text-decoration: none;
+  font-size: 13px;
+  font-weight: 600;
+  color: #9a9a9a;
+}
+div.container div.row div.column div.arrow_box1 ul li a i{
+  color:#8e44ad ;
+}
+div.container div.row div.column div.arrow_box1 ul li a:hover{
+  text-decoration: none;
+}
+div.container div.row div.column div.arrow_box1 ul li a span{
+  color:#8e44ad ;
+}
+div.container div.row div.column div.arrow_box1 ul li a span.title{
+  font-size: 20px;
+  font-weight: 900;
+}
+/*************************************مردانه************************************************/
+div.container div.row div.column div.arrow_box2{
+  position: fixed;
+  background: #fdf9ff;
+  border-top: 4px solid #8e44ad;
+  top: 110px;
+  right: 83px;
+  height: 472px;
+  margin: auto;
+  width: 1200px;
+  z-index: 3;
+  border-radius: 5px;
+
+  /*display: none;*/
+}
+.submenu_div{
+  display: none;
+  position: absolute;
+
+}
+div.container div.row div.column div.arrow_box2 ul{
+  float: right;
+  list-style-type: none;
+  margin: 15px 10px 5px 43px;
+}
+div.container div.row div.column div.arrow_box2 ul li {
+  border-bottom: 1px solid #d5d5d5;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+div.container div.row div.column div.arrow_box2 ul li:hover{
+  background-color:#fff ;
+}
+
+
+div.container div.row div.column div.arrow_box2 ul li a{
+  padding-right: 10px;
+  padding-left: 10px;
+  text-decoration: none;
+  font-size: 13px;
+  font-weight: 600;
+  color: #9a9a9a;
+}
+div.container div.row div.column div.arrow_box2 ul li a i{
+  color:#8e44ad ;
+}
+div.container div.row div.column div.arrow_box2 ul li a:hover{
+  text-decoration: none;
+}
+div.container div.row div.column div.arrow_box2 ul li a span{
+  color:#8e44ad ;
+}
+div.container div.row div.column div.arrow_box2 ul li a span.title{
+  font-size: 20px;
+  font-weight: 900;
+}
+/*************************end section 4 menu jquery************************/
+/***************************************************end part 1 (header)************************************/
+/***************************************************start part 2 (slider)************************************/
+.carousel {
+  position: relative;
+  top: 96px;
+}
+.carousel-indicators{
+  z-index: 2;
+}
+/***************************************************end part 2 (slider)************************************/
+/***************************************************start part 3 ************************************/
+/*<!--*******************************start section 1***********************************-->*/
+div.image{
+  position: relative;
+  top: 97px;
+  background-color: white;
+}
+div.image div.row{
+  width: 90%;
+  margin: auto;
+}
+div.image div.row:after{
+  content: "";
+  clear: both;
+  display: table;
+}
+div.image div.row div.column{
+  /*float: left;*/
+  width: 100%;
+  flex: 100%;
+  padding: 5px;
+}
+div.image img{
+  /*position: relative;*/
+  /*margin-right: 77px;*/
+}
+/*<!--*******************************end section 1***********************************-->*/
+/*<!--*******************************start section 2***********************************-->*/
+div#box_advertise{
+  background-color: #fdf9ff;
+  margin-top: 130px;
+  padding-bottom: 15px;
+  padding-top: 18px;
+  border-top: #eeedf1 1px solid;
+  margin-bottom: 20px;
+}
+div#box_advertise div.row{
+  width: 90%;
+  margin: auto;
+}
+/* Clear floats after image containers */
+div#box_advertise div.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+/* Three image containers (use 25% for four, and 50% for two, etc) */
+div#box_advertise div.row div.column {
+  float: left;
+  width: 31.33%;
+  padding: 1px;
+  flex: 50%;
+  margin-bottom: 12px;
+  margin-right: 13px;
+}
+div#box_advertise div.row div.column{
+
+}
+
+/*div.box div.row div.column a:hover{*/
+  /*transform: rotate(20deg)*/
+
+/*}*/
+div#box_advertise div.row div.column a img{
+  /*cursor: pointer;*/
+  width: 100%;
+}
+div#box_advertise div.row div.column a img{
+}
+
+div#box_advertise div.row div.column a img.width200{
+  width: 203.5%;
+}
+
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 500px) {
+  .column {
+    width: 100%;
+  }
+}
+/*<!--*******************************end section 2***********************************-->*/
+/***************************************************end part 3 ************************************/
+
+/***************************************************start part 4 ************************************/
+/*<!--********************start section 1************************-->*/
+div.minibox{
+  border: 1px solid #f0f0f1;
+  background-color: white;
+  margin: auto;
+  width: 132px;
+  height: 41px;
+  padding: 10px;
+  text-align: center;
+  font-size: 20px;
+  color: #8e44ad;
+  font-weight: 900;
+}
+div.minibox p{
+  display: inline;
+  text-align: center;
+}
+/*<!--********************end section 1************************-->*/
+
+/*<!--********************start section 2************************-->*/
+div.box2{
+  background-color: #fdf9ff;
+  padding-bottom: 15px;
+  height: 500px;
+  margin-top: 10px;
+  border-top: #eeedf1 1px solid;
+  margin-bottom: 20px;
+}
+/*<!--********************end section 2************************-->*/
+/***************************************************end part 4 ************************************/
+
+/***************************************************start part 5 ************************************/
+/*<!--********************start section 1************************-->*/
+div.minibox2{
+  border: 1px solid #f0f0f1;
+  background-color: white;
+  margin: auto;
+  width: 132px;
+  height: 41px;
+  padding: 10px;
+  text-align: center;
+  font-size: 20px;
+  color: #8e44ad;
+  font-weight: 900;
+}
+/*<!--********************end section 1************************-->*/
+/*<!--********************start section 2************************-->*/
+div.box3{
+  background-color: #fdf9ff;
+  padding-bottom: 15px;
+  height: 500px;
+  margin-top: 10px;
+  border-top: #eeedf1 1px solid;
+  margin-bottom: 20px;
+}
+/*<!--********************end section 2************************-->*/
+/***************************************************end part 5 ************************************/
+
+/***************************************************start part 6 ************************************/
+/*<!--********************start section 1************************-->*/
+div.minibox3{
+  border: 1px solid #f0f0f1;
+  background-color: white;
+  margin: auto;
+  width: 132px;
+  height: 41px;
+  padding: 10px;
+  text-align: center;
+  font-size: 20px;
+  color: #8e44ad;
+  font-weight: 900;
+}
+/*<!--********************end section 1************************-->*/
+/*<!--********************start section 2************************-->*/
+div.box4{
+  background-color: #fdf9ff;
+  padding-bottom: 15px;
+  height: 500px;
+  margin-top: 10px;
+  border-top: #eeedf1 1px solid;
+  margin-bottom: 20px;
+}
+/*<!--********************end section 2************************-->*/
+/***************************************************end part 6 ************************************/
+
+/***************************************************start part 7 ************************************/
+/*<!--********************start section 1************************-->*/
+div.minibox4{
+  border: 1px solid #f0f0f1;
+  background-color: white;
+  margin: auto;
+  width: 132px;
+  height: 41px;
+  padding: 10px;
+  text-align: center;
+  font-size: 20px;
+  color: #8e44ad;
+  font-weight: 900;
+}
+/*<!--********************end section 1************************-->*/
+/*<!--********************start section 2************************-->*/
+div.box5{
+  background-color: #fdf9ff;
+  padding-bottom: 15px;
+  height: 500px;
+  margin-top: 10px;
+  border-top: #eeedf1 1px solid;
+  margin-bottom: 20px;
+}
+/*<!--********************end section 2************************-->*/
+/***************************************************end part 7 ************************************/
+
+/***************************************************start part 8 ************************************/
+/*<!--********************start section 1************************-->*/
+div.minibox5{
+  border: 1px solid #f0f0f1;
+  background-color: white;
+  margin: auto;
+  width: 238px;
+  height: 47px;
+  padding: 10px;
+  text-align: center;
+  font-size: 20px;
+  color: #8e44ad;
+  font-weight: 900;
+}
+/*<!--********************end section 1************************-->*/
+/*<!--********************start section 2************************-->*/
+div.box6{
+  background-color: #fdf9ff;
+  padding-bottom: 15px;
+  height: 500px;
+  margin-top: 10px;
+  border-top: #eeedf1 1px solid;
+  margin-bottom: 20px;
+}
+/*<!--********************end section 2************************-->*/
+/***************************************************end part 8 ************************************/
+/***************************************************start part 9 ************************************/
+/*<!--********************start section 1************************-->*/
+
+/*<!--********************end section 1************************-->*/
+/*<!--********************start section 2************************-->*/
+div.box7{
+  background:  url("../images/background.jpg")  fixed ;
+  padding-bottom: 15px;
+  height: 500px;
+  margin-top: 10px;
+  border-top: #eeedf1 1px solid;
+  position: relative;
+/*opacity: .5%;*/
+}
+div.box7 div.bg_box7{
+  position: absolute;
+  width: 100%;
+  height: 500px;
+  background: rgba(0,0,0,.56);
+}
+/*div.box7 {*/
+  /*opacity: 0.8;*/
+/*}*/
+
+div.box7 img{
+  margin-right: 40%;
+  margin-top: 126px;
+}
+div.box7 p{
+  margin-right: 34%;
+  margin-top: 10px;
+  font-size: 23px;
+  font-weight: 900;
+  color: white;
+}
+div.box7 input{
+  background-color: #67cbc5;
+  border-color: transparent;
+  margin-right: 46%;
+  border-radius: 15px;
+  margin-top: 10px;
+  color: white;
+  width: 128px;
+  font-size: 20px;
+}
+/*<!--********************end section 2************************-->*/
+/***************************************************end part 9 ************************************/
+/***************************************************start part 10 ************************************/
+/*<!--********************start section 1************************-->*/
+
+/*<!--********************end section 1************************-->*/
+/*<!--********************start section 2************************-->*/
+div.box8{
+  background: #18181a;
+  padding-bottom: 15px;
+  height: 200px;
+
+}
+div.box8 div.col-md-1{
+  margin-left: 30px;
+  float: right;
+}
+/*<!--********************end section 2************************-->*/
+/***************************************************end part 10 ************************************/
+/***************************************************start part 11 ************************************/
+/*<!--********************start section 1************************-->*/
+
+/*<!--********************end section 1************************-->*/
+/*<!--********************start section 2************************-->*/
+div.box9{
+  background: #0c0c0c;
+  padding-bottom: 15px;
+  height: 80px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+div.box9 p {
+  color: white;
+  padding-top: 10px;
+}
+/*<!--********************end section 2************************-->*/
+/***************************************************end part 11 ************************************/
