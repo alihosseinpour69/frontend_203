@@ -13,7 +13,7 @@ table, caption, tbody, tfoot, tr, th, td {
   border: 0;
   outline: 0;
   /*background: transparent;*/
-  direction: rtl;
+  /*direction: rtl;*/
   text-transform: capitalize;
   /*font-family: "Tahoma";*/
   box-sizing: border-box;
@@ -89,8 +89,11 @@ html, body {
 .slick-current {
   opacity: 1;
 }
-section {
-  width: 800px;
+section.vertical-sliser {
+  width: 100%;
+}
+.rtl {
+  direction: rtl;
 }
 /*******************part 01 *******************/
 /*****************start section 1**************/
@@ -307,6 +310,8 @@ div.container div.row div.column div.arrow_box2 ul li a{
   font-size: 13px;
   font-weight: 600;
   color: #9a9a9a;
+  display: block;
+  text-align: right;
 }
 div.container div.row div.column div.arrow_box2 ul li a i{
   color:#8e44ad ;

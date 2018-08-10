@@ -21,8 +21,9 @@
           <img src="images/bag_shoes_tpbr.jpg" alt="">
         </div>
         <!--*****************start section 2*******************-->
-        <div class="global">
+        <div class="global rtl">
           <div class="container">
+
             <div class="right">
               <ul class="nav navbar-nav">
                 <li class="btn"><i class="fab fa-youtube"></i></li>
@@ -815,9 +816,10 @@
 
       <!--********************start section 2************************-->
       <div class="box2">
-        <div class="cotainer">
+        <div class="container">
           <div class="row">
-            <section class="center slick-loading ">
+            <div class="col-md-12">
+             <section  class="vertical-sliser center slick-loading ">
               <div>
                 <img src="http://placehold.it/350x300?text=1">
               </div>
@@ -846,6 +848,7 @@
                 <img src="http://placehold.it/350x300?text=9">
               </div>
             </section>
+            </div>
 
           </div>
         </div>
@@ -1076,10 +1079,10 @@
       <script src="./slick/slick.js" type="text/javascript" charset="utf-8"></script>
       <script>
 
-          $("#top_menu > li > a").mouseenter(function() {
-              $(this).siblings(".submenu_div").show();
+          $("#top_menu > li ").mouseenter(function() {
+              $(this).find('a').siblings(".submenu_div").show();
           }).mouseleave(function() {
-              $(this).siblings(".submenu_div").hide();
+              $(this).find('a').siblings(".submenu_div").hide();
           });
 // ******************************************
         $(".ali").mouseenter(function () {
@@ -1096,8 +1099,8 @@
                   centerMode: true,
                   slidesToShow: 5,
                   slidesToScroll: 3,
-                  // autoplay: true,
-                  // autoplaySpeed: 2000,
+                  autoplay: true,
+                  autoplaySpeed: 2000,
               });
           });
 // ***********************************
