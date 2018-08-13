@@ -33,6 +33,10 @@ header{
 .flright{
   float: right;
 }
+
+.bottom_highlight{
+  display: none;
+}
 /*@media only screen and (max-width: 1280px){*/
   /*header div.haraj img{right:0};*/
   /*header div.haraj img:width:100%;*/
@@ -44,13 +48,13 @@ header{
 
   }
 }
-@media only screen and (max-width: 1200px){
-  header div.haraj{width: 0}
-  header div.menu2 ul li{
-    margin-left: 0;
-    margin-right: 0;
-  }
-}
+/*@media only screen and (max-width: 1200px){*/
+  /*header div.haraj{width: 0}*/
+  /*header div.menu2 ul li{*/
+    /*margin-left: 0;*/
+    /*margin-right: 0;*/
+  /*}*/
+/*}*/
 /***********************************slick*******************************/
 html, body {
   margin: 0;
@@ -103,12 +107,14 @@ section.vertical-sliser {
 /*****************start section 1**************/
 header div.haraj{
   width: 100%;
-  height: 37px;
+  /*height: 37px;*/
+  height: 100%;
   background-color: black;
 }
 header div.haraj img{
   position: relative;
-  right: 6%;
+  /*right: 6%;*/
+  width: 100%;
 }
 /*!****************end sectin 1*******************/
 
@@ -165,21 +171,24 @@ header div.global div.container div.right ul.nav.navbar-nav li.text-right i a{
 header div.menu2{
   background-color: white;
   position: relative;
-  top: -1px;
+
 }
 header div.menu2 ul{}
-header div.menu2 ul li{
-  /* display: inline; */
-  margin-top: 1px;
-  margin-bottom: 1px;
-  margin-right: 5px;
+header div.menu2 ul li.btn{
+  padding: 6px;
 }
+/*header div.menu2 ul li.btn{*/
+  /*padding: 0;*/
+/*}*/
 header div.menu2 ul li.btn:hover{
   background-color: #8e44ad;
   color: white;
 }
 header div.menu2 ul li a{
-  padding-top: 2px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  /*padding-right: 10px;*/
+  color: #9a9a9a;
 }
 header div.menu2 ul li a span{
 color: #9a9a9a;
@@ -194,13 +203,15 @@ header div.menu2 ul li a span.purple:hover{
 }
 header div.menu2 ul li a span:hover{
   /*color: white;*/
+  /*padding: 10px;*/
 }
 header div.menu2 ul li a:hover{
   text-decoration: none;
+  color: white;
 }
-header div.menu2 ul a img{
+header div.menu2 img{
   position: relative;
-  left: -162px;
+  right: 211px;
 
 }
 .DivChev{
@@ -225,26 +236,24 @@ div.container div.row div.column div.arrow_box1{
   position: fixed;
   background: #fdf9ff;
   border-top: 4px solid #8e44ad;
-  top: 110px;
-  right: 83px;
-  height: 472px;
+  top: 115px;
+  right: 120px;
+  height: 500px;
   margin: auto;
   width: 1200px;
-  z-index: 3;
-  display: none;
+  z-index: 10;
+  /*display: block;*/
   border-radius: 5px;
-
-
 }
 div.container div.row div.column div.arrow_box1 ul{
   float: right;
   list-style-type: none;
-  margin: 15px 10px 5px 43px;
+  margin: 5px 5px 5px 25px;
 }
 div.container div.row div.column div.arrow_box1 ul li {
   border-bottom: 1px solid #d5d5d5;
-  padding-top: 5px;
-  padding-bottom: 5px;
+  /*padding-top: 5px;*/
+  /*padding-bottom: 5px;*/
 }
 div.container div.row div.column div.arrow_box1 ul li:hover{
   background-color:#fff ;
@@ -253,11 +262,13 @@ div.container div.row div.column div.arrow_box1 ul li:hover{
 
 div.container div.row div.column div.arrow_box1 ul li a{
   padding-right: 10px;
-  padding-left: 10px;
+  /*padding-left: 10px;*/
   text-decoration: none;
   font-size: 13px;
   font-weight: 600;
   color: #9a9a9a;
+  display: block;
+  text-align: right;
 }
 div.container div.row div.column div.arrow_box1 ul li a i{
   color:#8e44ad ;
@@ -277,12 +288,12 @@ div.container div.row div.column div.arrow_box2{
   position: fixed;
   background: #fdf9ff;
   border-top: 4px solid #8e44ad;
-  top: 110px;
-  right: 83px;
-  height: 472px;
+  top: 115px;
+  right: 120px;
+  height: 425px;
   margin: auto;
   width: 1200px;
-  z-index: 3;
+  z-index: 4;
   border-radius: 5px;
 
   /*display: none;*/
@@ -348,24 +359,25 @@ div.image{
   top: 97px;
   background-color: white;
 }
-div.image div.row{
-  width: 90%;
-  margin: auto;
-}
-div.image div.row:after{
-  content: "";
-  clear: both;
-  display: table;
-}
-div.image div.row div.column{
-  /*float: left;*/
-  width: 100%;
-  flex: 100%;
-  padding: 5px;
-}
-div.image img{
-  /*position: relative;*/
+/*div.image div.row{*/
+  /*width: 90%;*/
+  /*margin: auto;*/
+/*}*/
+/*div.image div.row:after{*/
+  /*content: "";*/
+  /*clear: both;*/
+  /*display: table;*/
+/*}*/
+/*div.image div.row div.column{*/
+  /*!*float: left;*!*/
+  /*width: 100%;*/
+  /*flex: 100%;*/
+  /*padding: 5px;*/
+/*}*/
+div.image div.container img{
+  position: relative;
   /*margin-right: 77px;*/
+  margin: auto;
 }
 /*<!--*******************************end section 1***********************************-->*/
 /*<!--*******************************start section 2***********************************-->*/
@@ -375,20 +387,21 @@ div#box_advertise{
   padding-bottom: 15px;
   padding-top: 18px;
   border-top: #eeedf1 1px solid;
+  border-bottom: #eeedf1 1px solid;
   margin-bottom: 20px;
 }
-div#box_advertise div.row{
+div#box_advertise div.adver{
   width: 90%;
   margin: auto;
 }
 /* Clear floats after image containers */
-div#box_advertise div.row::after {
+div#box_advertise div.adver::after {
   content: "";
   clear: both;
   display: table;
 }
 /* Three image containers (use 25% for four, and 50% for two, etc) */
-div#box_advertise div.row div.column {
+div#box_advertise div.adver div.column {
   float: left;
   width: 31.33%;
   padding: 1px;
@@ -396,22 +409,20 @@ div#box_advertise div.row div.column {
   margin-bottom: 12px;
   margin-right: 13px;
 }
-div#box_advertise div.row div.column{
 
-}
 
 /*div.box div.row div.column a:hover{*/
   /*transform: rotate(20deg)*/
 
 /*}*/
-div#box_advertise div.row div.column a img{
+div#box_advertise div.adver div.column a img{
   /*cursor: pointer;*/
   width: 100%;
 }
-div#box_advertise div.row div.column a img{
+div#box_advertise div.adver div.column a img{
 }
 
-div#box_advertise div.row div.column a img.width200{
+div#box_advertise div.adver div.column a img.width200{
   width: 203.5%;
 }
 
@@ -428,15 +439,16 @@ div#box_advertise div.row div.column a img.width200{
 /*<!--********************start section 1************************-->*/
 div.minibox{
   border: 1px solid #f0f0f1;
-  background-color: white;
+  background-color: #fff;
   margin: auto;
   width: 132px;
   height: 41px;
-  padding: 10px;
+  padding: 6px;
   text-align: center;
   font-size: 20px;
   color: #8e44ad;
   font-weight: 900;
+  position: relative;
 }
 div.minibox p{
   display: inline;
@@ -449,9 +461,49 @@ div.box2{
   background-color: #fdf9ff;
   padding-bottom: 15px;
   height: 500px;
-  margin-top: 10px;
+  margin-top: -21px;
   border-top: #eeedf1 1px solid;
+  border-bottom: #eeedf1 1px solid;
   margin-bottom: 20px;
+  text-align: center;
+}
+div.box2 div.container{
+  position: relative;
+  top: 80px;
+}
+div.box2 div.pic_box a img{
+  border-radius: 10px;
+}
+div.box2 div.bottom_highlight{
+  width: 100%;
+  height: 32px;
+  background-color: #8e44ad;
+  position: relative;
+  top: -32px;
+  text-align: center;
+  color: white;
+  padding-top: 5px;
+  /*display: none;*/
+ border-bottom-left-radius: 10px;
+ border-bottom-right-radius: 10px;
+}
+div.box2 div.pic_box div.sub_text a{
+  display: block;
+  text-decoration: none;
+  padding-top: 10px;
+  color: #808080;
+  direction: rtl;
+}
+
+div.box2 div.pic_box div.sub_text i{
+  color:#fba500 ;
+}
+div.box2 div.pic_box div.sub_text i.gray{
+  color: grey;
+}
+div.box2 div.pic_box div.sub_text strike{
+  color:#8d8d8d;
+  font-size: 12px;
 }
 /*<!--********************end section 2************************-->*/
 /***************************************************end part 4 ************************************/
@@ -460,25 +512,32 @@ div.box2{
 /*<!--********************start section 1************************-->*/
 div.minibox2{
   border: 1px solid #f0f0f1;
-  background-color: white;
+  background-color: #fff;
   margin: auto;
   width: 132px;
   height: 41px;
-  padding: 10px;
+  padding: 6px;
   text-align: center;
   font-size: 20px;
   color: #8e44ad;
   font-weight: 900;
+  position: relative;
+  top: 10px;
 }
 /*<!--********************end section 1************************-->*/
 /*<!--********************start section 2************************-->*/
 div.box3{
   background-color: #fdf9ff;
   padding-bottom: 15px;
-  height: 500px;
-  margin-top: 10px;
+  height: 223px;
+  margin-top: -11px;
   border-top: #eeedf1 1px solid;
+  border-bottom: #eeedf1 1px solid;
   margin-bottom: 20px;
+}
+div.box3 div.Blog_posts{
+  position: relative;
+  top:20px;
 }
 /*<!--********************end section 2************************-->*/
 /***************************************************end part 5 ************************************/
@@ -487,15 +546,17 @@ div.box3{
 /*<!--********************start section 1************************-->*/
 div.minibox3{
   border: 1px solid #f0f0f1;
-  background-color: white;
+  background-color: #fff;
   margin: auto;
   width: 132px;
   height: 41px;
-  padding: 10px;
+  padding: 6px;
   text-align: center;
   font-size: 20px;
   color: #8e44ad;
   font-weight: 900;
+  position: relative;
+  top: 10px;
 }
 /*<!--********************end section 1************************-->*/
 /*<!--********************start section 2************************-->*/
@@ -503,9 +564,51 @@ div.box4{
   background-color: #fdf9ff;
   padding-bottom: 15px;
   height: 500px;
-  margin-top: 10px;
+  margin-top: -11px;
   border-top: #eeedf1 1px solid;
+  border-bottom: #eeedf1 1px solid;
   margin-bottom: 20px;
+}
+div.box4 div.container{
+  position: relative;
+  top: 80px;
+}
+div.box4 div.pic_box a img{
+  border-radius: 10px;
+}
+div.box4 div.bottom_highlight{
+  width: 100%;
+  height: 32px;
+  background-color: #8e44ad;
+  position: relative;
+  top: -32px;
+  text-align: center;
+  color: white;
+  padding-top: 5px;
+  /*display: none;*/
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+div.box4 div.pic_box div.sub_text{
+  text-align: center;
+}
+div.box4 div.pic_box div.sub_text a{
+  display: block;
+  text-decoration: none;
+  padding-top: 10px;
+  color: #808080;
+  direction: rtl;
+}
+
+div.box4 div.pic_box div.sub_text i{
+  color:#fba500 ;
+}
+div.box4 div.pic_box div.sub_text i.gray{
+  color: grey;
+}
+div.box4 div.pic_box div.sub_text strike{
+  color:#8d8d8d;
+  font-size: 12px;
 }
 /*<!--********************end section 2************************-->*/
 /***************************************************end part 6 ************************************/
@@ -514,15 +617,17 @@ div.box4{
 /*<!--********************start section 1************************-->*/
 div.minibox4{
   border: 1px solid #f0f0f1;
-  background-color: white;
+  background-color: #fff;
   margin: auto;
   width: 132px;
   height: 41px;
-  padding: 10px;
+  padding: 6px;
   text-align: center;
   font-size: 20px;
   color: #8e44ad;
   font-weight: 900;
+  position: relative;
+  top:10px;
 }
 /*<!--********************end section 1************************-->*/
 /*<!--********************start section 2************************-->*/
@@ -530,9 +635,51 @@ div.box5{
   background-color: #fdf9ff;
   padding-bottom: 15px;
   height: 500px;
-  margin-top: 10px;
+  margin-top: -11px;
   border-top: #eeedf1 1px solid;
+  border-bottom: #eeedf1 1px solid;
   margin-bottom: 20px;
+}
+div.box5 div.container{
+  position: relative;
+  top: 80px;
+}
+div.box5 div.pic_box a img{
+  border-radius: 10px;
+}
+div.box5 div.bottom_highlight{
+  width: 100%;
+  height: 32px;
+  background-color: #8e44ad;
+  position: relative;
+  top: -32px;
+  text-align: center;
+  color: white;
+  padding-top: 5px;
+  /*display: none;*/
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+div.box5 div.pic_box div.sub_text{
+  text-align: center;
+}
+div.box5 div.pic_box div.sub_text a{
+  display: block;
+  text-decoration: none;
+  padding-top: 10px;
+  color: #808080;
+  direction: rtl;
+}
+
+div.box5 div.pic_box div.sub_text i{
+  color:#fba500 ;
+}
+div.box5 div.pic_box div.sub_text i.gray{
+  color: grey;
+}
+div.box5 div.pic_box div.sub_text strike{
+  color:#8d8d8d;
+  font-size: 12px;
 }
 /*<!--********************end section 2************************-->*/
 /***************************************************end part 7 ************************************/
@@ -541,25 +688,29 @@ div.box5{
 /*<!--********************start section 1************************-->*/
 div.minibox5{
   border: 1px solid #f0f0f1;
-  background-color: white;
+  background-color: #fff;
   margin: auto;
-  width: 238px;
-  height: 47px;
-  padding: 10px;
+  width: 209px;
+  height: 41px;
+  padding: 6px;
   text-align: center;
   font-size: 20px;
   color: #8e44ad;
   font-weight: 900;
+  position: relative;
+  top: -1px;
 }
 /*<!--********************end section 1************************-->*/
 /*<!--********************start section 2************************-->*/
 div.box6{
   background-color: #fdf9ff;
-  padding-bottom: 15px;
-  height: 500px;
-  margin-top: 10px;
+  padding-top: 45px;
+  text-align: center;
+  /* padding-bottom: 15px; */
+  height: 120px;
+  margin-top: -23px;
   border-top: #eeedf1 1px solid;
-  margin-bottom: 20px;
+   margin-bottom: -10px;
 }
 /*<!--********************end section 2************************-->*/
 /***************************************************end part 8 ************************************/
@@ -590,6 +741,7 @@ div.box7 div.bg_box7{
 div.box7 img{
   margin-right: 40%;
   margin-top: 126px;
+  position: relative;
 }
 div.box7 p{
   margin-right: 34%;
@@ -597,6 +749,7 @@ div.box7 p{
   font-size: 23px;
   font-weight: 900;
   color: white;
+  position: relative;
 }
 div.box7 input{
   background-color: #67cbc5;
@@ -607,6 +760,7 @@ div.box7 input{
   color: white;
   width: 128px;
   font-size: 20px;
+  position: relative;
 }
 /*<!--********************end section 2************************-->*/
 /***************************************************end part 9 ************************************/
@@ -618,13 +772,33 @@ div.box7 input{
 div.box8{
   background: #18181a;
   padding-bottom: 15px;
-  height: 200px;
+  height: 174px;
 
 }
-div.box8 div.col-md-1{
-  margin-left: 30px;
-  float: right;
+div.box8 div.flright {
+  padding-top: 20px;
+  /*color: #bbb;*/
 }
+div.box8 div.flright ul {
+list-style-type: none;
+}
+
+
+div.box8 div.flright ul li{
+
+}
+div.box8 div.flright ul li a{
+  text-decoration: none;
+  color: #bbb;
+  font-weight: 100;
+  margin: 5px;
+}
+div.box8 div.flright ul li a:hover{
+  font-size: 15px;
+  color: #fff;
+  transition: 0.3s;
+}
+
 /*<!--********************end section 2************************-->*/
 /***************************************************end part 10 ************************************/
 /***************************************************start part 11 ************************************/
@@ -634,9 +808,7 @@ div.box8 div.col-md-1{
 /*<!--********************start section 2************************-->*/
 div.box9{
   background: #0c0c0c;
-  padding-bottom: 15px;
   height: 80px;
-  margin-bottom: 20px;
   text-align: center;
 }
 div.box9 p {
