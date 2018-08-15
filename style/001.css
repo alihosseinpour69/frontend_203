@@ -18,12 +18,19 @@ table, caption, tbody, tfoot, tr, th, td {
   /*font-family: "Tahoma";*/
   box-sizing: border-box;
 }
+@font-face {
+  font-family: 'byekan';
+  src: url('../fonts/BYekan.woff') format('woff2'),
+  url('../fonts/BYekan.eot') format('eot');
+}
+/*************************global*************************/
 .container{
   width: 1280px;
   margin: auto;
 }
 body{
   background-color: white;
+  font-family:byekan;
 }
 header{
   position: fixed;
@@ -56,15 +63,8 @@ header{
   /*}*/
 /*}*/
 /***********************************slick*******************************/
-html, body {
-  margin: 0;
-  padding: 0;
-}
 
 
-* {
-  /*box-sizing: border-box;*/
-}
 
 .slider {
   width: 50%;
@@ -89,9 +89,12 @@ html, body {
   transition: all ease-in-out .3s;
   opacity: .2;
 }
-
+.vertical-center-4{
+  margin: auto;
+  width: 100%;
+}
 .slick-active {
-  opacity: .5;
+  opacity: 1;
 }
 
 .slick-current {
@@ -121,8 +124,9 @@ header div.haraj img{
 /*****************start section 2**************/
 header div.global{
   border-bottom: #f6f6f6 1px solid;
-  height: 34px;
+  height: 35px;
   background-color: white;
+  width: 100%;
 }
 header div.global div.container div.right{}
 header div.global div.container div.right ul.nav.navbar-nav{}
@@ -144,10 +148,11 @@ header div.right ul{
   direction: rtl;
 }
 header div.global div.container div.right ul.nav.navbar-nav li.text-right{
-  padding-top: 8px;
-  padding-right: 23px;
-  padding-left: 23px;
-  padding-bottom: 5px;
+  /*padding-top: 8px;*/
+  /*padding-right: 23px;*/
+  /*padding-left: 23px;*/
+  /*padding-bottom: 5px;*/
+  padding: 8px 23px 5px 23px;
 }
 header div.global div.container div.right ul.nav.navbar-nav li.text-right input{
   border: none;
@@ -171,6 +176,7 @@ header div.global div.container div.right ul.nav.navbar-nav li.text-right i a{
 header div.menu2{
   background-color: white;
   position: relative;
+  width: 100%;
 
 }
 header div.menu2 ul{}
@@ -209,7 +215,7 @@ header div.menu2 ul li a:hover{
   text-decoration: none;
   color: white;
 }
-header div.menu2 img{
+header div.menu2 img#logo{
   position: relative;
   right: 211px;
 
@@ -242,7 +248,7 @@ div.container div.row div.column div.arrow_box1{
   margin: auto;
   width: 1200px;
   z-index: 10;
-  /*display: block;*/
+  /*display: none;*/
   border-radius: 5px;
 }
 div.container div.row div.column div.arrow_box1 ul{
@@ -283,8 +289,12 @@ div.container div.row div.column div.arrow_box1 ul li a span.title{
   font-size: 20px;
   font-weight: 900;
 }
+div.container div.row div.column div.arrow_box1 img#women{
+  position: relative;
+  top:100px;
+}
 /*************************************مردانه************************************************/
-div.container div.row div.column div.arrow_box2{
+div.container div.row div.column div.arrow_box2 {
   position: fixed;
   background: #fdf9ff;
   border-top: 4px solid #8e44ad;
@@ -310,8 +320,6 @@ div.container div.row div.column div.arrow_box2 ul{
 }
 div.container div.row div.column div.arrow_box2 ul li {
   border-bottom: 1px solid #d5d5d5;
-  padding-top: 5px;
-  padding-bottom: 5px;
 }
 div.container div.row div.column div.arrow_box2 ul li:hover{
   background-color:#fff ;
@@ -340,6 +348,379 @@ div.container div.row div.column div.arrow_box2 ul li a span{
 div.container div.row div.column div.arrow_box2 ul li a span.title{
   font-size: 20px;
   font-weight: 900;
+}
+div.container div.row div.column div.arrow_box2 img#men{
+  position: relative;
+  top:39px;
+}
+/************************************************بچه گانه*********************************************/
+div.container div.row div.column div.arrow_box3{
+  position: fixed;
+  background: #fdf9ff;
+  border-top: 4px solid #8e44ad;
+  top: 115px;
+  right: 120px;
+  height: 358px;
+  margin: auto;
+  width: 1200px;
+  z-index: 4;
+  border-radius: 5px;
+
+  /*display: none;*/
+}
+.submenu_div{
+  display: none;
+  position: absolute;
+
+}
+div.container div.row div.column div.arrow_box3 ul{
+  float: right;
+  list-style-type: none;
+  margin: 15px 10px 5px 43px;
+}
+div.container div.row div.column div.arrow_box3 ul li {
+  border-bottom: 1px solid #d5d5d5;
+  /*padding-top: 5px;*/
+  /*padding-bottom: 5px;*/
+}
+div.container div.row div.column div.arrow_box3 ul li:hover{
+  background-color:#fff ;
+}
+
+
+div.container div.row div.column div.arrow_box3 ul li a{
+  padding-right: 10px;
+  padding-left: 10px;
+  text-decoration: none;
+  font-size: 13px;
+  font-weight: 600;
+  color: #9a9a9a;
+  display: block;
+  text-align: right;
+}
+div.container div.row div.column div.arrow_box3 ul li a i{
+  color:#8e44ad ;
+}
+div.container div.row div.column div.arrow_box3 ul li a:hover{
+  text-decoration: none;
+}
+div.container div.row div.column div.arrow_box3 ul li a span{
+  color:#8e44ad ;
+}
+div.container div.row div.column div.arrow_box3 ul li a span.title{
+  font-size: 20px;
+  font-weight: 900;
+}
+div.container div.row div.column div.arrow_box3 img#child{
+  position: relative;
+  top: 30px;
+  left: -153px;
+}
+/*******************************کیف و کفش*********************************!*/
+div.container div.row div.column div.arrow_box4{
+  position: fixed;
+  background: #fdf9ff;
+  border-top: 4px solid #8e44ad;
+  top: 115px;
+  right: 120px;
+  height: 370px;
+  margin: auto;
+  width: 1200px;
+  z-index: 4;
+  border-radius: 5px;
+
+  /*display: none;*/
+}
+.submenu_div{
+  display: none;
+  position: absolute;
+
+}
+div.container div.row div.column div.arrow_box4 ul{
+  float: right;
+  list-style-type: none;
+  margin: 15px 10px 5px 43px;
+}
+div.container div.row div.column div.arrow_box4 ul li {
+  border-bottom: 1px solid #d5d5d5;
+}
+div.container div.row div.column div.arrow_box4 ul li:hover{
+  background-color:#fff ;
+}
+
+
+div.container div.row div.column div.arrow_box4 ul li a{
+  padding-right: 10px;
+  padding-left: 10px;
+  text-decoration: none;
+  font-size: 13px;
+  font-weight: 600;
+  color: #9a9a9a;
+  display: block;
+  text-align: right;
+}
+div.container div.row div.column div.arrow_box4 ul li a i{
+  color:#8e44ad ;
+}
+div.container div.row div.column div.arrow_box4 ul li a:hover{
+  text-decoration: none;
+}
+div.container div.row div.column div.arrow_box4 ul li a span{
+  color:#8e44ad ;
+}
+div.container div.row div.column div.arrow_box4 ul li a span.title{
+  font-size: 20px;
+  font-weight: 900;
+}
+div.container div.row div.column div.arrow_box4 img#bag{
+  position: relative;
+  top: 22px;
+  left: -66px;
+}
+
+/***************************************عطر و ادکلن*************************************/
+div.container div.row div.column div.arrow_box5{
+  position: fixed;
+  background: #fdf9ff;
+  border-top: 4px solid #8e44ad;
+  top: 115px;
+  right: 120px;
+  height: 412px;
+  margin: auto;
+  width: 1200px;
+  z-index: 4;
+  border-radius: 5px;
+
+  /*display: none;*/
+}
+.submenu_div{
+  display: none;
+  position: absolute;
+
+}
+div.container div.row div.column div.arrow_box5 ul{
+  float: right;
+  list-style-type: none;
+  margin: 12px 110px 5px 43px;
+
+}
+div.container div.row div.column div.arrow_box5 ul li {
+  border-bottom: 1px solid #d5d5d5;
+  /*padding-top: 5px;*/
+  /*padding-bottom: 5px;*/
+}
+div.container div.row div.column div.arrow_box5 ul li:hover{
+  background-color:#fff ;
+}
+
+
+div.container div.row div.column div.arrow_box5 ul li a{
+  padding-right: 10px;
+  padding-left: 10px;
+  text-decoration: none;
+  font-size: 13px;
+  font-weight: 600;
+  color: #9a9a9a;
+  display: block;
+  /*text-align: right;*/
+}
+div.container div.row div.column div.arrow_box5 ul li a i{
+  color:#8e44ad ;
+}
+div.container div.row div.column div.arrow_box5 ul li a:hover{
+  text-decoration: none;
+}
+div.container div.row div.column div.arrow_box5 ul li a span{
+  color:#8e44ad ;
+}
+div.container div.row div.column div.arrow_box5 ul li a span.title{
+  font-size: 20px;
+  font-weight: 900;
+}
+/************************************اکسسوری**************************************/
+div.container div.row div.column div.arrow_box6{
+  position: fixed;
+  background: #fdf9ff;
+  border-top: 4px solid #8e44ad;
+  top: 115px;
+  right: 120px;
+  height: 327px;
+  margin: auto;
+  width: 1200px;
+  z-index: 4;
+  border-radius: 5px;
+
+  /*display: none;*/
+}
+.submenu_div{
+  display: none;
+  position: absolute;
+
+}
+div.container div.row div.column div.arrow_box6 ul{
+  float: right;
+  list-style-type: none;
+  margin: 15px 10px 5px 43px;
+}
+div.container div.row div.column div.arrow_box6 ul li {
+  border-bottom: 1px solid #d5d5d5;
+  /*padding-top: 5px;*/
+  /*padding-bottom: 5px;*/
+}
+div.container div.row div.column div.arrow_box6 ul li:hover{
+  background-color:#fff ;
+}
+
+
+div.container div.row div.column div.arrow_box6 ul li a{
+  padding-right: 10px;
+  padding-left: 10px;
+  text-decoration: none;
+  font-size: 13px;
+  font-weight: 600;
+  color: #9a9a9a;
+  display: block;
+  text-align: right;
+}
+div.container div.row div.column div.arrow_box6 ul li a i{
+  color:#8e44ad ;
+}
+div.container div.row div.column div.arrow_box6 ul li a:hover{
+  text-decoration: none;
+}
+div.container div.row div.column div.arrow_box6 ul li a span{
+  color:#8e44ad ;
+}
+div.container div.row div.column div.arrow_box6 ul li a span.title{
+  font-size: 20px;
+  font-weight: 900;
+}
+/****************************************آرایشی بهداشتی********************************/
+div.container div.row div.column div.arrow_box7{
+  position: fixed;
+  background: #fdf9ff;
+  border-top: 4px solid #8e44ad;
+  top: 115px;
+  right: 120px;
+  height: 355px;
+  margin: auto;
+  width: 1200px;
+  z-index: 4;
+  border-radius: 5px;
+
+  /*display: none;*/
+}
+.submenu_div{
+  display: none;
+  position: absolute;
+
+}
+div.container div.row div.column div.arrow_box7 ul{
+  float: right;
+  list-style-type: none;
+  margin: 15px 10px 5px 43px;
+}
+div.container div.row div.column div.arrow_box7 ul li {
+  border-bottom: 1px solid #d5d5d5;
+  /*padding-top: 5px;*/
+  /*padding-bottom: 5px;*/
+}
+div.container div.row div.column div.arrow_box7 ul li:hover{
+  background-color:#fff ;
+}
+
+
+div.container div.row div.column div.arrow_box7 ul li a{
+  padding-right: 10px;
+  padding-left: 10px;
+  text-decoration: none;
+  font-size: 13px;
+  font-weight: 600;
+  color: #9a9a9a;
+  display: block;
+  text-align: right;
+}
+div.container div.row div.column div.arrow_box7 ul li a i{
+  color:#8e44ad ;
+}
+div.container div.row div.column div.arrow_box7 ul li a:hover{
+  text-decoration: none;
+}
+div.container div.row div.column div.arrow_box7 ul li a span{
+  color:#8e44ad ;
+}
+div.container div.row div.column div.arrow_box7 ul li a span.title{
+  font-size: 20px;
+  font-weight: 900;
+}
+div.container div.row div.column div.arrow_box7 img#makeup{
+  position: relative;
+  top: 31px;
+  left: -69px;
+}
+/*********************************لوازم خانگی**********************************/
+div.container div.row div.column div.arrow_box8{
+  position: fixed;
+  background: #fdf9ff;
+  border-top: 4px solid #8e44ad;
+  top: 115px;
+  right: 120px;
+  height: 357px;
+  margin: auto;
+  width: 1200px;
+  z-index: 4;
+  border-radius: 5px;
+
+  /*display: none;*/
+}
+.submenu_div{
+  display: none;
+  position: absolute;
+
+}
+div.container div.row div.column div.arrow_box8 ul{
+  float: right;
+  list-style-type: none;
+  margin: 15px 10px 5px 43px;
+}
+div.container div.row div.column div.arrow_box8 ul li {
+  border-bottom: 1px solid #d5d5d5;
+
+}
+div.container div.row div.column div.arrow_box8 ul li:hover{
+  background-color:#fff ;
+}
+
+
+div.container div.row div.column div.arrow_box8 ul li a{
+  padding-right: 10px;
+  padding-left: 10px;
+  text-decoration: none;
+  font-size: 13px;
+  font-weight: 600;
+  color: #9a9a9a;
+  display: block;
+  text-align: right;
+}
+div.container div.row div.column div.arrow_box8 ul li a i{
+  color:#8e44ad ;
+
+}
+div.container div.row div.column div.arrow_box8 ul li a:hover{
+  text-decoration: none;
+}
+div.container div.row div.column div.arrow_box8 ul li a span{
+  color:#8e44ad ;
+}
+div.container div.row div.column div.arrow_box8 ul li a span.title{
+  font-size: 20px;
+  font-weight: 900;
+}
+div.container div.row div.column div.arrow_box8 img#Home-Appliances{
+  position: relative;
+  top: 30px;
+  width: 315px;
+  height: 220px;
 }
 /*************************end section 4 menu jquery************************/
 /***************************************************end part 1 (header)************************************/
@@ -473,7 +854,12 @@ div.box2 div.container{
 }
 div.box2 div.pic_box a img{
   border-radius: 10px;
+
 }
+.pic_box a:focus {
+  outline: none;
+}
+
 div.box2 div.bottom_highlight{
   width: 100%;
   height: 32px;
@@ -483,7 +869,7 @@ div.box2 div.bottom_highlight{
   text-align: center;
   color: white;
   padding-top: 5px;
-  /*display: none;*/
+  /*display: block;*/
  border-bottom-left-radius: 10px;
  border-bottom-right-radius: 10px;
 }
@@ -538,6 +924,12 @@ div.box3{
 div.box3 div.Blog_posts{
   position: relative;
   top:20px;
+}
+div.box3 img{
+  width: 370px;
+  height: 158px;
+  position: relative;
+  top: 10px;
 }
 /*<!--********************end section 2************************-->*/
 /***************************************************end part 5 ************************************/
@@ -794,9 +1186,9 @@ div.box8 div.flright ul li a{
   margin: 5px;
 }
 div.box8 div.flright ul li a:hover{
-  font-size: 15px;
+  padding-right: 5px;
   color: #fff;
-  transition: 0.3s;
+  transition: 0.2s;
 }
 
 /*<!--********************end section 2************************-->*/
@@ -819,3 +1211,23 @@ div.box9 p {
 /***************************************************end part 11 ************************************/
 
 
+
+#slideshow {
+  position:relative;
+  height:350px;
+}
+
+#slideshow IMG {
+  position:absolute;
+  top:0;
+  left:0;
+  z-index:8;
+}
+
+#slideshow IMG.active {
+  z-index:10;
+}
+
+#slideshow IMG.last-active {
+  z-index:9;
+}
