@@ -159,7 +159,7 @@ header div.global div.container div.right ul.nav.navbar-nav li.text-right input{
   position: relative;
   margin-right: 5px;
   top: -4px;
-  width: 400px;
+  width: 382px;
 }
 header div.global div.container div.right ul.nav.navbar-nav li.text-right input:focus{
   outline: none;
@@ -239,11 +239,11 @@ header div.menu2 img#logo{
 
 
 div.container div.row div.column div.arrow_box1{
-  position: fixed;
+  position: absolute;
   background: #fdf9ff;
   border-top: 4px solid #8e44ad;
-  top: 115px;
-  right: 120px;
+  top: 6px;
+  right: -5px;
   height: 500px;
   margin: auto;
   width: 1200px;
@@ -295,11 +295,11 @@ div.container div.row div.column div.arrow_box1 img#women{
 }
 /*************************************مردانه************************************************/
 div.container div.row div.column div.arrow_box2 {
-  position: fixed;
+  position: absolute;
   background: #fdf9ff;
   border-top: 4px solid #8e44ad;
-  top: 115px;
-  right: 120px;
+  top: 6px;
+  right: -49px;
   height: 425px;
   margin: auto;
   width: 1200px;
@@ -351,15 +351,16 @@ div.container div.row div.column div.arrow_box2 ul li a span.title{
 }
 div.container div.row div.column div.arrow_box2 img#men{
   position: relative;
-  top:39px;
+  top: 39px;
+  left: 20px;
 }
 /************************************************بچه گانه*********************************************/
 div.container div.row div.column div.arrow_box3{
-  position: fixed;
+  position: absolute;
   background: #fdf9ff;
   border-top: 4px solid #8e44ad;
-  top: 115px;
-  right: 120px;
+  top: 6px;
+  right: -97px;
   height: 358px;
   margin: auto;
   width: 1200px;
@@ -418,11 +419,11 @@ div.container div.row div.column div.arrow_box3 img#child{
 }
 /*******************************کیف و کفش*********************************!*/
 div.container div.row div.column div.arrow_box4{
-  position: fixed;
+  position: absolute;
   background: #fdf9ff;
   border-top: 4px solid #8e44ad;
-  top: 115px;
-  right: 120px;
+  top: 6px;
+  right: -156px;
   height: 370px;
   margin: auto;
   width: 1200px;
@@ -480,11 +481,11 @@ div.container div.row div.column div.arrow_box4 img#bag{
 
 /***************************************عطر و ادکلن*************************************/
 div.container div.row div.column div.arrow_box5{
-  position: fixed;
+  position: absolute;
   background: #fdf9ff;
   border-top: 4px solid #8e44ad;
-  top: 115px;
-  right: 120px;
+  top: 6px;
+  right: -240px;
   height: 412px;
   margin: auto;
   width: 1200px;
@@ -539,11 +540,11 @@ div.container div.row div.column div.arrow_box5 ul li a span.title{
 }
 /************************************اکسسوری**************************************/
 div.container div.row div.column div.arrow_box6{
-  position: fixed;
+  position: absolute;
   background: #fdf9ff;
   border-top: 4px solid #8e44ad;
-  top: 115px;
-  right: 120px;
+  top: 6px;
+  right: -312px;
   height: 327px;
   margin: auto;
   width: 1200px;
@@ -597,11 +598,11 @@ div.container div.row div.column div.arrow_box6 ul li a span.title{
 }
 /****************************************آرایشی بهداشتی********************************/
 div.container div.row div.column div.arrow_box7{
-  position: fixed;
+  position: absolute;
   background: #fdf9ff;
   border-top: 4px solid #8e44ad;
-  top: 115px;
-  right: 120px;
+  top: 6px;
+  right: -383px;
   height: 355px;
   margin: auto;
   width: 1200px;
@@ -660,11 +661,11 @@ div.container div.row div.column div.arrow_box7 img#makeup{
 }
 /*********************************لوازم خانگی**********************************/
 div.container div.row div.column div.arrow_box8{
-  position: fixed;
+  position: absolute;
   background: #fdf9ff;
   border-top: 4px solid #8e44ad;
-  top: 115px;
-  right: 120px;
+  top: 6px;
+  right: -491px;
   height: 357px;
   margin: auto;
   width: 1200px;
@@ -719,8 +720,9 @@ div.container div.row div.column div.arrow_box8 ul li a span.title{
 div.container div.row div.column div.arrow_box8 img#Home-Appliances{
   position: relative;
   top: 30px;
-  width: 315px;
+  width: 296px;
   height: 220px;
+  left: 10px;
 }
 /*************************end section 4 menu jquery************************/
 /***************************************************end part 1 (header)************************************/
@@ -1150,7 +1152,7 @@ div.box7 input{
   border-radius: 15px;
   margin-top: 10px;
   color: white;
-  width: 128px;
+  width: 152px;
   font-size: 20px;
   position: relative;
 }
@@ -1164,7 +1166,7 @@ div.box7 input{
 div.box8{
   background: #18181a;
   padding-bottom: 15px;
-  height: 174px;
+  height: 186px;
 
 }
 div.box8 div.flright {
@@ -1173,6 +1175,7 @@ div.box8 div.flright {
 }
 div.box8 div.flright ul {
 list-style-type: none;
+  margin-left: 10px;
 }
 
 

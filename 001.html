@@ -1689,16 +1689,18 @@
                     <img src="images/app_side2.jpg">
                   </div>
                   <div>
-                    <img src="http://placehold.it/350x100?text=2">
+                    <img src="images/app_side22.jpg">
                   </div>
-
                   <div>
-                    <img src="http://placehold.it/350x100?text=2">
+                    <img src="images/app_side222.jpg">
+                  </div>
+                  <div>
+                    <img src="images/app_side2222.jpg">
+                  </div>
+                  <div>
+                    <img src="images/app_side22222.jpg">
                   </div>
                 </div>
-
-
-
               </div>
               <div class="col-md-4 col-xs-4">
                 <img src="images/app_side3.jpg" alt="">
@@ -2241,11 +2243,11 @@
 
 
 // ************************************topmenu************************************
-
+// $("#top_menu > li ").find('a').siblings(".submenu_div").show(300);
           $("#top_menu > li ").mouseover(function() {
-              $(this).find('a').siblings(".submenu_div").show(300);
+             $(this).find('a').siblings(".submenu_div").show(100);
           }).mouseleave(function() {
-              $(this).find('a').siblings(".submenu_div").hide(300);
+             $(this).find('a').siblings(".submenu_div").hide(100);
 
           });
 // **********************************pic_box***************************************
@@ -2291,7 +2293,7 @@
                   fade : true,
                   dots: false,
                   autoplay: true,
-                  autoplaySpeed: 2000,
+                  autoplaySpeed: 3000,
                   // rtl:true,
                   arrows: false
               });
