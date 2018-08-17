@@ -1214,23 +1214,221 @@ div.box9 p {
 /***************************************************end part 11 ************************************/
 
 
+/*****************************************************page 02 **********************************************/
+/***********************************start part 02*******************************/
+div.part2{
+  background: url("../images/page 2/slides_10525.jfif") fixed ;
 
-#slideshow {
-  position:relative;
-  height:350px;
+  height: 800px;
+  /*position: static;*/
+  top: 50px;
 }
+/*div.bg_shoes{*/
+  /*background: url("../images/page 2/slides_10525.jfif") fixed;*/
+  /*top: 50px;*/
+  /*width: 100%;*/
+/*}*/
+/***********************************end part 02*******************************/
 
-#slideshow IMG {
-  position:absolute;
-  top:0;
-  left:0;
-  z-index:8;
+/***********************************start part 03*******************************/
+/****************start section 01*****************/
+div.part3{
+  background-color: #fff;
+  position: relative;
 }
+div.part3 div.section01{
+  margin: auto;
+  text-align: center;
+  direction: rtl;
+  padding-top: 20px;
+  line-height: 5em;
+}
+div.part3 div.section01 div.Paragraph1{
+  margin-top: 20px;
 
-#slideshow IMG.active {
-  z-index:10;
 }
+div.part3 div.section01 div.paragraph2{
+  margin-top: 20px;
+}
+div.part3 div.section01 h1{
+  color: #8e44ad;
+  font-weight: 900;
+}
+div.part3 div.section01 h2{
+  font-weight: 600;
+}
+div.part3 div.section01 h3{}
+div.part3 div.section01 h3 span{
+  font-weight: 900;
+  color: #8e44ad;
+}
+/****************end section 01*****************/
+/****************start section 02*****************/
+div.part3 div.section02{
+  margin-top: 20px;
+}
+div.part3 div.section02  a img{
+  width: 400px;
+  height: 400px;
+}
+div.part3 div.section02 a{
+  position: relative;
+}
+div.part3 div.section02 i{
+  position: absolute;
+  top: 159px;
+  right: 178px;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+}
+div.part3 div.section02 i:hover{
+  cursor: pointer;
+  color:#8e44ad ;
+}
+/****************end section 02*****************/
+/****************start section 03*****************/
+div.part3 div.section03{
+  direction: rtl;
+  margin-top: 20px;
+  margin-bottom: 40px;
+}
+div.part3 div.section03 div.box_col_md{
+  /*border: 2px salmon solid;*/
+  padding: 60px;
+  -webkit-box-shadow: 0px 2px 2px 4px #ccc;  /* Safari 3-4, iOS 4.0.2 - 4.2, Android 2.3+ */
+  -moz-box-shadow:    0px 2px 2px 4px #ccc;  /* Firefox 3.5 - 3.6 */
+  box-shadow:         0px 2px 2px 4px #ccc;  /* Opera 10.5, IE 9, Firefox 4+, Chrome 6+, iOS 5 */
+}
+div.part3 div.section03 div.box_col_md a.button{
+  background-color:#8e44ad ;
+  padding: 6px 63px;
+  border-radius: 17px;
+  color: white;
+  text-decoration: none;
+  display: inline;
+}
+div.part3 div.section03 div.box_col_md p#col-md{
+  display: inline;
+  margin-right: 50px;
+  font-weight: 800;
+}
+div.part3 div.section03 div.box-col-md-paragraph{
+  padding: 10px;
+}
+div.part3 div.section03 div.box-col-md-paragraph p{
+  font-weight: 600;
+  font-size: 18px;
+}
+div.part3 div.section03 div.box-col-md-paragraph p span{
+  color: #8e44ad;
+  font-size: 20px;
+}
+/****************end section 03*****************/
+/***********************************end part 03*******************************/
 
-#slideshow IMG.last-active {
-  z-index:9;
+/***********************************end part 04*******************************/
+/****************start section 01*****************/
+div.minibox_page2_1{
+  border: 1px solid #f0f0f1;
+  background-color: #fff;
+  margin: auto;
+  width: 164px;
+  height: 41px;
+  padding: 6px;
+  text-align: center;
+  font-size: 19px;
+  color: #8e44ad;
+  /* font-weight: 900; */
+  position: relative;
 }
+/****************end section 01*****************/
+/****************start section 02*****************/
+/*as css box2 in page 004*/
+
+/****************end section 02*****************/
+
+/***********************************end part 04*******************************/
+/***********************************start part 05*******************************/
+div.part5{
+  background: url("../images/page 2/slide40525.jfif") fixed;
+  height: 800px;
+  /*position: static;*/
+  margin-top:-20px;
+}
+/***********************************end part 05*******************************/
+/***********************************start part 06*******************************/
+/****************start section 01*****************/
+div.part6{
+  padding-top: 20px;
+}
+div.part6 div.section02 img{
+  width: 400px;
+  height: 400px;
+}
+/****************end section 01*****************/
+div.part6 div.section03{
+  margin-top: 20px;
+}
+div.part6 div.section03 div.box_col_md{
+  direction: rtl;
+  padding: 60px;
+  -webkit-box-shadow: 0px 2px 2px 4px #ccc;  /* Safari 3-4, iOS 4.0.2 - 4.2, Android 2.3+ */
+  -moz-box-shadow:    0px 2px 2px 4px #ccc;  /* Firefox 3.5 - 3.6 */
+  box-shadow:         0px 2px 2px 4px #ccc;  /* Opera 10.5, IE 9, Firefox 4+, Chrome 6+, iOS 5 */
+}
+div.part6 div.section03 div.box_col_md a.button{
+  background-color:#8e44ad ;
+  padding: 6px 63px;
+  border-radius: 17px;
+  color: white;
+  text-decoration: none;
+  display: inline;
+}
+div.part6 div.section03 div.box_col_md p#col-md22{
+  display: inline;
+  margin-right: 50px;
+  font-weight: 800;
+}
+div.part6 div.section03 div.box-col-md-paragraph{
+  padding: 10px;
+  direction: rtl;
+}
+div.part6 div.section03 div.box-col-md-paragraph p{
+  word-spacing: 1px;
+  font-size: 15px;
+}
+div.part6 div.section03 div.box-col-md-paragraph  span{
+  color: #8e44ad;
+  font-size: 20px;
+}
+/***********************************end part 06*******************************/
+/**********************************start part 07*******************************/
+/*copy part4*/
+/***********************************end part 07*******************************/
+/***********************************start part 08*******************************/
+div.part8{
+  text-align: center;
+  margin: auto;
+  direction: rtl;
+}
+div.part8 a#button{
+  background-color: #8e44ad;
+  padding: 6px 63px;
+  text-decoration: none;
+  color: white;
+  border-radius: 18px;
+}
+/***********************************start part 08*******************************/
+/***********************************start part 09*******************************/
+div.part9{
+  background: url("../images/page 2/map_shixon2.jfif") fixed;
+  height: 800px;
+  /*position: static;*/
+  margin-top:21px;
+  margin-bottom: 29px;
+  direction: rtl;
+}
+/***********************************end part 09*******************************/
