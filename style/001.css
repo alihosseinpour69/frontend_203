@@ -40,6 +40,10 @@ header{
 .flright{
   float: right;
 }
+.parallax-window {
+  min-height: 800px;
+  background: transparent;
+}
 
 .bottom_highlight{
   display: none;
@@ -1216,18 +1220,7 @@ div.box9 p {
 
 /*****************************************************page 02 **********************************************/
 /***********************************start part 02*******************************/
-div.part2{
-  background: url("../images/page 2/slides_10525.jfif") fixed ;
-
-  height: 800px;
-  /*position: static;*/
-  top: 50px;
-}
-/*div.bg_shoes{*/
-  /*background: url("../images/page 2/slides_10525.jfif") fixed;*/
-  /*top: 50px;*/
-  /*width: 100%;*/
-/*}*/
+div.part2{}
 /***********************************end part 02*******************************/
 
 /***********************************start part 03*******************************/
@@ -1353,10 +1346,7 @@ div.minibox_page2_1{
 /***********************************end part 04*******************************/
 /***********************************start part 05*******************************/
 div.part5{
-  background: url("../images/page 2/slide40525.jfif") fixed;
-  height: 800px;
-  /*position: static;*/
-  margin-top:-20px;
+
 }
 /***********************************end part 05*******************************/
 /***********************************start part 06*******************************/
@@ -1424,11 +1414,6 @@ div.part8 a#button{
 /***********************************start part 08*******************************/
 /***********************************start part 09*******************************/
 div.part9{
-  background: url("../images/page 2/map_shixon2.jfif") fixed;
-  height: 800px;
-  /*position: static;*/
-  margin-top:21px;
-  margin-bottom: 29px;
-  direction: rtl;
+
 }
 /***********************************end part 09*******************************/
