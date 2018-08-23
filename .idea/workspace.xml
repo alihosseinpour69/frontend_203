@@ -6,7 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="78421a0d-e506-4421-9132-c5a891240e5d" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/001.html" beforeDir="false" afterPath="$PROJECT_DIR$/001.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -24,7 +23,7 @@
         <entry file="file://$PROJECT_DIR$/001.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="131">
-              <caret line="2246" column="33" lean-forward="true" selection-start-line="2246" selection-start-column="31" selection-end-line="2246" selection-end-column="40" />
+              <caret line="2246" column="37" lean-forward="true" selection-start-line="2246" selection-start-column="31" selection-end-line="2246" selection-end-column="40" />
               <folding>
                 <element signature="n#header#0;n#body#0;n#html#0;n#!!top" />
                 <element signature="n#div#0;n#div#0;n#div#0;n#div#0;n#li#1;n#ul#0;n#div#0;n#div#1;n#div#2;n#header#0;n#body#0;n#html#0;n#!!top" />
@@ -236,12 +235,12 @@
       <workItem from="1534687469578" duration="703000" />
       <workItem from="1534762537579" duration="2835000" />
       <workItem from="1534855979134" duration="606000" />
-      <workItem from="1534947685954" duration="1343000" />
+      <workItem from="1534947685954" duration="2456000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="126655000" />
+    <option name="totallyTimeSpent" value="127768000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -254,7 +253,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25776604" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32902297" />
@@ -1027,7 +1025,7 @@
     <entry file="file://$PROJECT_DIR$/001.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="131">
-          <caret line="2246" column="33" lean-forward="true" selection-start-line="2246" selection-start-column="31" selection-end-line="2246" selection-end-column="40" />
+          <caret line="2246" column="37" lean-forward="true" selection-start-line="2246" selection-start-column="31" selection-end-line="2246" selection-end-column="40" />
           <folding>
             <element signature="n#header#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#div#0;n#div#0;n#div#0;n#div#0;n#li#1;n#ul#0;n#div#0;n#div#1;n#div#2;n#header#0;n#body#0;n#html#0;n#!!top" />
