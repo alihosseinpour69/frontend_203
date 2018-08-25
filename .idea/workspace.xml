@@ -6,6 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="78421a0d-e506-4421-9132-c5a891240e5d" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/style/001.css" beforeDir="false" afterPath="$PROJECT_DIR$/style/001.css" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -19,11 +20,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="001.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="001.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/001.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="131">
-              <caret line="2246" column="37" lean-forward="true" selection-start-line="2246" selection-start-column="31" selection-end-line="2246" selection-end-column="40" />
+            <state relative-caret-position="21">
+              <caret line="2250" selection-start-line="2250" selection-end-line="2250" />
               <folding>
                 <element signature="n#header#0;n#body#0;n#html#0;n#!!top" />
                 <element signature="n#div#0;n#div#0;n#div#0;n#div#0;n#li#1;n#ul#0;n#div#0;n#div#1;n#div#2;n#header#0;n#body#0;n#html#0;n#!!top" />
@@ -81,11 +82,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="001.css" pinned="false" current-in-tab="false">
+      <file leaf-file-name="001.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/style/001.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="25662">
-              <caret line="1222" column="3" selection-start-line="1222" selection-start-column="3" selection-end-line="1222" selection-end-column="3" />
+            <state relative-caret-position="172">
+              <caret line="162" column="21" lean-forward="true" selection-start-line="162" selection-start-column="21" selection-end-line="162" selection-end-column="21" />
             </state>
           </provider>
         </entry>
@@ -120,13 +121,13 @@
       <find>arrow_box8</find>
       <find>box</find>
       <find>vertical-center-4</find>
-      <find>inpu</find>
       <find>mini</find>
       <find>min</find>
       <find>box2</find>
       <find>#button</find>
       <find>مش</find>
       <find>.part9</find>
+      <find>inpu</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -141,9 +142,9 @@
         <option value="E:/github_frontend203/001.html" />
         <option value="$USER_HOME$/Downloads/Compressed/slick-1.8.1/slick-1.8.1/index.html" />
         <option value="$PROJECT_DIR$/slick/slick-theme.css" />
-        <option value="$PROJECT_DIR$/style/001.css" />
         <option value="$PROJECT_DIR$/002.html" />
         <option value="$PROJECT_DIR$/001.html" />
+        <option value="$PROJECT_DIR$/style/001.css" />
       </list>
     </option>
   </component>
@@ -166,6 +167,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -182,7 +184,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -236,11 +237,13 @@
       <workItem from="1534762537579" duration="2835000" />
       <workItem from="1534855979134" duration="606000" />
       <workItem from="1534947685954" duration="2456000" />
+      <workItem from="1535010936379" duration="1559000" />
+      <workItem from="1535188085746" duration="325000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="127768000" />
+    <option name="totallyTimeSpent" value="129652000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -992,13 +995,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/style/001.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="25662">
-          <caret line="1222" column="3" selection-start-line="1222" selection-start-column="3" selection-end-line="1222" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/002.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
@@ -1024,8 +1020,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/001.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="131">
-          <caret line="2246" column="37" lean-forward="true" selection-start-line="2246" selection-start-column="31" selection-end-line="2246" selection-end-column="40" />
+        <state relative-caret-position="21">
+          <caret line="2250" selection-start-line="2250" selection-end-line="2250" />
           <folding>
             <element signature="n#header#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#div#0;n#div#0;n#div#0;n#div#0;n#li#1;n#ul#0;n#div#0;n#div#1;n#div#2;n#header#0;n#body#0;n#html#0;n#!!top" />
@@ -1054,6 +1050,13 @@
             <element signature="n#style#0;n#a#0;n#li#0;n#ul#0;n#div#1;n#div#0;n#div#0;n#div#13;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#div#14;n#body#0;n#html#0;n#!!top" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/style/001.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="172">
+          <caret line="162" column="21" lean-forward="true" selection-start-line="162" selection-start-column="21" selection-end-line="162" selection-end-column="21" />
         </state>
       </provider>
     </entry>
